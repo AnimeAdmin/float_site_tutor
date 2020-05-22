@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Comfortaa', cursive;
+}
+
+header {
+	box-shadow: 0 0 15px 2px #252525;	
+}
+
+.topHeader {
+	background-color: #34495e;
+	overflow: hidden;
+}
+
+.logo, .search, .phone {
+	float: left;
+	width: 33.33%;
+}
+
+.logo img {
+	display: inline-block;
+	width: 100px;
+	padding-left: 150px;
+}
+
+
+
+
+.phone a {
+	display: inline-block;
+	color: #fff;
+	font-size: 25px;
+	text-decoration: none;
+	margin: 35px;
+}
+
+.search form {
+	margin: 35px;
+}
+
+
+
+#menu {
+	text-align: center;
+	position: relative;
+}
+
+#menu ul {
+	display: inline-block;
+
+
+}
+
+#menu ul li {
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	padding: 20px 5px;
+	transition: 0.5s ease-in-out;
+
+
+}
+
+
+#menu ul li:hover{
+	background-color: #34495e;
+	color: #fff;
+}
+
+#menu ul li a {
+	color: inherit;
+	text-decoration: none;
+	font-size: 20px;
+	display: block;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+#menu ul li:hover .submenu {
+	top: 50px;
+	display: block;
+	color: #000;
+
+}
+
+
+#menu .submenu {
+	display: none;
+	position: relative;
+	background-color: #fff;
+	padding: 0;
+	border: 1px solid #e1e1e1;
+	position: absolute;
+}
+ 
+#menu .submenu li {
+	min-width: 200px;
+
+}
+
+#content {
+	min-height: 100%;
+	text-shadow: 2px 1px  #b33939;
+	color: #fff;
+	background-image: url(../image/uchihaclan.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.text-center{
+	text-align: center;
+
+}
+
+footer {
+	background-color: #706fd3;
+	overflow: hidden; 
+}
+
+.icons {
+	text-align: center;
+}
+
+footer ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 10px 15px;
+}
+
+.icons li a {
+	color: #fff;
+	font-size: 35px;
+}
+
+.icons li a:hover {
+	color: #000;
+}
+
